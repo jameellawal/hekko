@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+     <!-- <div class="container">
+      <div class="output "> 
+         <input class="output" data-output type="text" placeholder="0">
+        </div> 
+    <div class="calculator-grid" >
+        <button class="clear-button all-clear-btn" data-all-clear id="top ">C</button> 
+        <button class="button num-btn" data-operation>÷</button>
+        <button class="button num-btn" data-number> 7</button>
+        <button class="button num-btn"data-number>8</button>
+        <button class="button num-btn" data-number>9</button>
+        <button class="button  operation-btn" data-operation="">×</button>
+        <button class="button num-btn" data-number>4</button>
+        <button class="button num-btn data-number">5</button>
+        <button class="button num-btn" data-number>6</button>
+        <button class="button operation-btn" data-operation="">-</button>
+        <button class="button num-btn" data-number>1</button>
+        <button class="button num-btn" data-number>2</button>
+        <button class="button num-btn" data-number>3</button>
+        <button class="button" data-operation>+</button>
+        <button class="span-three num-btn" data-number>0</button>
+        <button class="answer equals-btn" data-equals id="bottom">=</button>
+
+    </div> 
+</div> -->
+
+    <div id="container">
+        <div id="calculator">
+            <div class="output">
+                <div data-previous-operand class="previous-operand">
+                    <p id="history-value"></p>
+                </div>
+                <div data-current-operand class=current-operand>
+                    <p id="output-value"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator" data-all-clear>C</button>
+                <button class="operator" data-cancel-everything>CE</button>
+                <button class="operator" data-delete>DEL</button>
+                <button class="operator" data-operation>÷</button>
+                <button class="number" data-number>7</button>
+                <button class="number" data-number>8</button>
+                <button class="number" data-number>9</button>
+                <button class="operator" data-operation>×</button>
+                <button class="number" data-number>4</button>
+                <button class="number" data-number>5</button>
+                <button class="number" data-number>6</button>
+                <button class="operator" data-operation>-</button>
+                <button class="number" data-number>1</button>
+                <button class="number" data-number>2</button>
+                <button class="number" data-number>3</button>
+                <button class="operator" data-operation>+</button>
+                <button class="empty"></button>
+                <button class="number" data-number>0</button>
+                <button class="empty" data-number>.</button>
+                <button class="operator" data-equals>=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html> 
